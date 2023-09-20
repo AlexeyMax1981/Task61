@@ -6,7 +6,7 @@ public class RestService {
         int money = 0;
         for (int mounth = 1; mounth < 13; mounth++) {
             if (money > threshold) {
-                money = (money - expenses) / 4;
+                money = (money - expenses) / 3;
                 count++;
             } else {
                 money = money + income - expenses;
